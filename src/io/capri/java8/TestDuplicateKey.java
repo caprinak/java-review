@@ -13,7 +13,7 @@ public class TestDuplicateKey {
         list.add(new Hosting(2, "linode.com", 90000));
         list.add(new Hosting(3, "digitalocean.com", 120000));
         list.add(new Hosting(4, "aws.amazon.com", 200000));
-        list.add(new Hosting(5, "mkyong.com", 1));
+        list.add(new Hosting(5, "satori.com", 1));
 		
         list.add(new Hosting(6, "linode.com", 100000)); // new line
 
