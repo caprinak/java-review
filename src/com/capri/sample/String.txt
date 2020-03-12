@@ -1,0 +1,18 @@
+objects backed by char array
+immutable and final
+	- use with string pool cache
+	- thread safe
+	-caches hashcodes
+string pool/intern >> optimal
+
+String APIs
+- indexOf, lastIndexOf, contains, matches
+- regular expressions
+- substring
+- memory leak up until JDK 7.0
+-StringBuffer/StringBuilder and String
+
+
++ operator vs StringBuilder.append() vs concat
+A word on 'best practice'
+storing passwords

@@ -1,0 +1,27 @@
+A map is an associate array data structure
+
+Hashing: transformation of a string of character to a shorted fixed-lenght
+ value that represents original string.
+ a shorter value helps in indexing and faster searches
+ In java every object has a method public int hashcode() that will return a hash value for a given project
+ 
+ Not Thread-safe
+ Iterator not guaranteed in insertion order
+ 
+ Need to use synchronized operations when manipulating from multiple threads , no worries about perfromance overhead
+ Node<K,V>[] table;
+ 
+ int hash;
+ K key;
+ V value;
+ Node<K,V> next;
+ >>> linked list 
+ >>> each table is a bucket
+ 
+ 
+ HASHTABLE
+ Legacy associative array implementation; Inducted to collection family
+ All methods are 'thread-safe"
+ there is synchronized keyword on each public method (put, get, remove)
+ overhead in an environment where Map is initialized once and the read by multiple threads
+ 

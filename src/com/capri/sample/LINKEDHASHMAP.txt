@@ -1,0 +1,20 @@
+similar to HashMap
+Iteration is guaranteed in insertion order
+Maintains seperate doubly linked list of all entries that is kept in entry insertion order
+Can be used in use-cases where hash map like behavior is needed at the same time order of insertion has to be preserved
+
+TreeMap
+Implementation of SortedMap and NavigableMap
+Iteration is guaranteed in "natural sorted" order of keys
+keys should implement "Comparable" interface (if not throw ClassCastException)
+Or we need to provide Comparator in constructor.
+
+red-black tree based implementation 
+
+IdentityHashMap
+
+EnumMap
+EnumMap<K extends Enum<K>,V>
+for use with enum type keys
+does not fail-fast
+null keys not permitted. not synchronized

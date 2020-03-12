@@ -1,0 +1,7 @@
+Elements in a weak hashmap can be reclaimed by the Garbage Colletors
+if there are no other strong references to the object
+this make them useful for caches/lookup storage
+
+Keys inserted gets wrapped in java.lang.ref.WeakReference
+
+Useful only if the desired lifetime of cache entries is determined by external references to the key not the value
