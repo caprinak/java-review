@@ -9,7 +9,7 @@ public class BiPredicateExp {
             return x.length() == y;
         };
 
-        boolean result = filter.test("mkyong", 6);
+        boolean result = filter.test("ambie", 6);
         System.out.println(result);  // true
 
         boolean result2 = filter.test("java", 10);
